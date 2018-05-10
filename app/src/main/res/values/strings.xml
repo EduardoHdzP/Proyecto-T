@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Easy English</string>
+    <string name="titulo">Easy English</string>
+    <string name="nivelA1">A1</string>
+    <string name="nivelA2">A2</string>
+    <string name="nivelB1">B1</string>
+    <string name="nivelB2">B2</string>
+    <string name="nivelC1">C1</string>
+    <string name="nivelC2">C1</string>
+    <string name="introduccion">
+        Bienvenido a Easy English\n
+        Esta app usted tendra en sus manos\n
+        los recusros necesarios para poder\n
+        aprender ingles
+        Bienvenido a Easy English\n
+        Esta app usted tendra en sus manos\n
+        los recusros necesarios para poder\n
+        aprender ingles
+    </string>
+
+    <!--Textos para los cuatro botones !-->
+    <string name="gramatica">Gramatica</string>
+    <string name="ejercicio">Ejercicios</string>
+    <string name="lectura">Lecturas</string>
+    <string name="verbos">Verbos</string>
+
+    <!--Textos para encabezados  !-->
+    <string name="tituloVerbos">Lista de verbos</string>
+    <string name="tituloEjercicios">Ejercicios de prectica</string>
+
+    <!--Menus para encabezados  !-->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_about">Acerca de</string>
+
+
+    <string-array name="cabecera_tabla">
+        <item>Id de la fila</item>
+        <item>Valor</item>
+        <item>Valor 2</item>
+        <item>Valor 3</item>
+        <item>Valor 4</item>
+    </string-array>
+
+</resources>

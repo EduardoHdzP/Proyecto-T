@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NivelActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textviewNivel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textColor="@color/colorTitulo"
+                    android:textSize="@dimen/tamanioTitulo" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/introduccion" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/bordeDerecha"
+                android:paddingLeft="@dimen/bordeIzquierda">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/bordeInferior">
+
+
+                    <Button
+                        android:id="@+id/btnGramatica"
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/bordeDerecha"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/gramatica"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenuAcciones"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnEjercicios"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/ejercicio"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenuAcciones"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:paddingBottom="@dimen/bordeInferior">
+
+
+                    <Button
+                        android:id="@+id/btnLecturas"
+                        android:layout_width="187dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/bordeDerecha"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/lectura"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenuAcciones"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnVerbos"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/verbos"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenuAcciones"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

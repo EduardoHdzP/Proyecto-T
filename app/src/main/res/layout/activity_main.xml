@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondoNegro"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textColor="@color/colorTitulo"
+                    android:textSize="@dimen/tamanioTitulo" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="213dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/usa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/bordeDerecha"
+                android:paddingLeft="@dimen/bordeIzquierda">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/introduccion"
+                    android:textColor="@color/colorFondoAzul" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/bordeIzquierda"
+                android:layout_marginRight="@dimen/bordeDerecha"
+                >
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/bordeInferior">
+
+
+                    <Button
+                        android:id="@+id/btnA1"
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/bordeDerecha"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/nivelA1"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenus"
+
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnA2"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:height="@dimen/alto"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:text="@string/nivelA2"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:textSize="@dimen/textoBtnMenus"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="107dp"
+                    android:paddingBottom="@dimen/bordeInferior">
+
+
+                    <Button
+                        android:id="@+id/btnB1"
+                        android:layout_width="187dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/bordeDerecha"
+                        android:layout_weight="1"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:height="@dimen/alto"
+                        android:text="@string/nivelB1"
+                        android:textSize="@dimen/textoBtnMenus"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnB2"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:height="@dimen/alto"
+                        android:text="@string/nivelB2"
+                        android:textSize="@dimen/textoBtnMenus"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/bordeInferior">
+
+                    <Button
+                        android:id="@+id/btnC1"
+                        android:layout_width="187dp"
+                        android:layout_height="wrap_content"
+                        android:height="@dimen/alto"
+                        android:layout_marginRight="@dimen/bordeDerecha"
+                        android:layout_weight="1"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:text="@string/nivelC1"
+                        android:textSize="@dimen/textoBtnMenus"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnC2"
+                        android:layout_width="196dp"
+                        android:layout_height="wrap_content"
+                        android:height="@dimen/alto"
+                        android:layout_weight="1"
+                        android:background="@color/colorFondoBtnMenus"
+                        android:textColor="@color/colorTextoBtnMenus"
+                        android:text="@string/nivelC2"
+                        android:textSize="@dimen/textoBtnMenus"
+                        android:textStyle="bold" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

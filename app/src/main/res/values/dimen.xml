@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanioTitulo">34dp</dimen>
+    <dimen  name="btnMenuAlto">0dp</dimen>
+    <dimen name="tamanioMenu">30dp</dimen>
+    <dimen name="bordeInferior">5dp</dimen>
+    <dimen name="bordeIzquierda">5dp</dimen>
+    <dimen name="bordeDerecha">5dp</dimen>
+    <dimen name="alto">150dp</dimen>
+
+    <dimen name="textoBtnMenus">40dp</dimen>
+    <dimen name="textoBtnMenuAcciones">25dp</dimen>
+
+</resources>
