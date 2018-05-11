@@ -7,7 +7,6 @@ import android.widget.TextView;
 public class EjerciciosActivity extends AppCompatActivity {
     private TextView textViewNivel;
     private String nivel;
-    private String prueba;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
